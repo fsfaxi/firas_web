@@ -1,0 +1,90 @@
+//------------Mixins--------------------
+
+@mixin elem-center1{
+    &::before,&::after{
+        
+        content: "";
+        width: 1%;
+        height: 100%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+@mixin elem-center2{
+
+    width: 98%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+//---------------Break Points -----------------
+
+$breakpoint_mobile_s: 375px;
+$breakpoint_mobile: 440px;
+$breakpoint_tablet_s: 600px;
+$breakpoint_tablet_l: 800px;
+$breakpoint_screen_xs: 1024px;
+$breakpoint_screen_s: 1280px;
+$breakpoint_screen_m: 1366px;
+$breakpoint_screen_l: 1600px;
+$breakpoint_screen_xl: 1920px;
+
+
+
+
+// ---------Colors----------------------
+
+$p1:(
+    c1 : #557A95,
+    c2 : #7395AE,
+    c3: #5D5C61,
+    c4: #379683,
+    c5: #B1A296
+);
+
+$p2: (
+    c1 : #99D3DF,
+    c2 : #88BBD6,
+    c3 : #CDCDCD,
+    c4 : #E9E9E9
+);
+
+$linkedin:(
+    c1 : #283E4A,
+    c2 : #0084BF,
+    c3 : #5F5F5F,
+    c4 : #FFFFFF
+);
+
+// $primary_color: #283E4A;
+// $accent1_color: #0084BF ;
+// $accent2_color: #5F5F5F ;
+// $accent3_color: #FFFFFF;
+
+$primary_color: #0B0C10;
+$accent1_color: #1F2833 ;
+$accent2_color: #C5C6C7 ;
+$accent3_color: #66FCF1;
+$accent4_color: #45A29E;
+
+//----------Fonts-----------------------
+
+$font1 : 'Jura', sans-serif;
+$font2: 'Changa One', cursive;
+$font3 : 'Suez One', serif;
+$font4 : 'Advent Pro', sans-serif;
+$font5 : 'Russo One', sans-serif;
+$font6: 'Audiowide', cursive;
+$font7: 'Days One', sans-serif;
+
+$font_xs : 1rem;
+$font_s: 1.1rem;
+$font_m : 1.2rem;
+$font_l : 1.3rem;
+$font_xl : 2.5rem;
+
+
+
+

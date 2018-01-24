@@ -1,0 +1,1093 @@
+
+h2 {
+    font-size: $font_l;
+    font-family: $font5;
+    color: $accent2_color;
+    margin-right: 40px;
+    border-bottom: 0.6px solid $accent4_color;
+    line-height: 3rem;
+    
+}
+
+.ti-link {
+    color: $accent2_color;
+    cursor: pointer;
+    font-size: 0.8rem;
+
+    &:hover{
+        color: $accent4_color;
+    }
+}
+
+#fs-right-container>div:not(:last-child){
+
+    padding: 40px 0 15px 30px;
+
+}
+
+// #fs-nav-button{
+    
+//     position: fixed;
+//     z-index: 2;
+//     width: 35px;
+//     height: 30px;
+//     right: 30px;
+//     top: 30px;
+//     cursor: pointer;
+//     overflow: hidden;
+//     transition: all 0.3s ease-in-out;
+    
+//     &:hover{
+
+//         width: 300px;
+//         height: 600px;
+//         transition: all 0.3s ease-in-out;
+        
+//         #fs-nav-button-innercontainer{
+            
+//             opacity: 0;
+//             transition: opacity 0.3s ease-in-out;
+            
+//             >div{
+//                 background-color: $accent4_color;
+//                 transition: background-color 0.3s ease-in-out;
+//             }
+//         }
+        
+//         >ul{
+            
+//             height: 600px;
+//             transition: height 0.3s ease-in-out;
+
+//             >li{
+//                 opacity: 1;
+//                 transition: opacity 0.4s ease-out;
+//             }
+//         }
+//     }
+
+    
+
+//     >ul{
+      
+//         background-color: $accent1_color;
+//         padding: 0px;
+//         height: 0px;
+//         overflow: hidden;
+//         transition: height 0.3s ease-in-out;
+
+//         >li{
+//             font-family: $font1;
+//             font-size: 20px;
+//             color: $accent2_color;
+//             text-decoration:none;
+//             list-style: none;
+//             text-align: center;
+//             padding: 20px 0;
+//             opacity: 0;
+//             transition: opacity 0.2s ease-in-out;
+
+//             &:hover{
+
+//                 background-color: $accent4_color;
+//                 color: $accent1_color;
+
+//             }
+//         }
+        
+//     }
+   
+
+// }
+
+// #fs-nav-button-innercontainer{
+
+//     position: absolute;
+//     top: 0;
+//     right: 0;
+//     opacity: 1;
+//     transition: opacity 0.3s ease-in-out;
+//     width: 35px;
+//     height: 30px;
+
+
+//     >div{
+
+//         width: 100%;
+//         height: 5px;
+//         background-color: $accent3_color;
+//         transition: background-color 0.5s ease-in-out;
+//         margin-bottom: 4px;
+
+//         &:nth-of-type(3){
+//             margin-bottom: 0px;
+//         }               
+//     }
+
+
+// }
+
+#fs-aboutme-container{
+    width: auto;
+    height: auto;
+    background-color: black;
+
+
+    >p{
+        font-size: $font_xs;
+        line-height: 30px;
+        font-family: $font1;
+        color: #C5C6C7;
+        margin: 0;
+        margin-right: 60px;
+    }
+}
+
+#fs-edu-container{
+    width: auto;
+    // height: 800px;
+    height: auto;
+    background-color: black;
+
+}
+
+.fs-edu-box {
+
+    margin-bottom: 25px;
+    >p{
+        font-family: $font1;
+        font-size: $font_s;
+        margin: 0px;
+    }
+    
+}
+
+.edu-l1{
+
+    color: $accent4_color;
+    font-weight: bolder;
+
+}
+.edu-l2{
+
+    color: $accent2_color;
+}
+.edu-l3{
+
+    color: $accent3_color;
+    font-weight: bolder;
+    
+}
+.edu-l4{
+
+    color: $accent2_color;
+}
+#fs-expr-container{
+
+    widows: auto;
+    height: auto;
+    background-color: black;
+   
+}
+
+.fs-exp-box {
+
+    margin-bottom: 25px;
+    >p{
+
+        font-family: $font1;
+        font-size: $font_s;
+        margin: 0px;
+        
+    }
+    
+}
+
+.exp-l1{
+
+    color: $accent4_color;
+    font-weight: bolder;
+}
+
+.exp-l2{
+    font-size: $font_xs;
+    color: $accent2_color;
+ 
+}
+
+.exp-l3{
+
+    color: $accent3_color;
+    font-weight: bolder;
+}
+.exp-l4{
+
+    color: $accent2_color;
+    
+}
+
+
+.fs-box-container{
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+
+    >h2{
+        flex-basis: 100%;
+    }
+
+    >div{
+
+        box-sizing: border-box;
+        flex-basis: 50%;
+        padding: 10px;
+
+        >p{
+        
+            font-family: $font1;
+            font-size: $font_s;
+            line-height: 1.5rem;
+            color: $accent2_color;
+            margin: 0;
+            position: relative;
+            padding-left: 10px;
+    
+            &:before{
+                content: "•";
+                color: $accent4_color;
+                padding-right: 10px;
+                position: absolute;
+                left: 0;
+    
+            }
+        }
+
+
+    }
+
+}
+
+#fs-lang-container{
+    width: auto;
+    height: auto;
+    background-color: black;
+    padding-bottom: 75px; 
+    display: flex;
+    flex-flow: row wrap;
+
+    >h2,>p{
+        flex-basis: 100%;
+    }
+
+    >p{
+        // align-content: center;
+        font-family: $font1;
+        font-size: $font_s;
+        line-height: 1.8rem;
+        color: $accent2_color;
+        margin: 5px 0;
+
+        &:before{
+            content: "";
+            color: $accent4_color;
+            padding-right: 10px;
+        }
+        // .fs-lang-level{
+        //     color: $accent4_color;
+        //     font-size: 0.9rem;
+        //     padding-left: 8px;
+        // }
+    }
+}
+
+.fs-green-span{
+    color: $accent4_color;
+    font-size: 0.9rem;
+    padding-left: 8px;
+}
+.flag-icon{
+    margin: 0 10px;
+}
+
+#fs-certs-contaienr{
+    width: auto;
+    height: auto;
+    background-color: black;
+
+    .fs-certs-box{
+        margin-bottom: 25px;
+
+        >img{
+            height: 1.3rem;
+            width: auto;
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 10px;
+        }
+
+        >p{
+            font-family: $font1;
+            margin: 0px;
+            line-height: 1.8rem;
+
+        }
+        >p:nth-of-type(1){
+
+            font-size: $font_m;
+            color: $accent2_color;
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: bolder;
+            font-family: $font1;
+            
+        }
+        >p:nth-of-type(2), >p:nth-of-type(4){
+
+            font-size: $font_m;
+            color: $accent4_color;
+        }
+        >p:nth-of-type(3), >p:nth-of-type(5){
+
+            font-size: $font_m;
+            color: $accent2_color;
+        }
+        >p:nth-of-type(2){
+            padding-top: 15px;
+        }
+    }
+}
+
+#fs-footer-container {
+    width: 100%;
+    height: 150px;
+    background-color: $accent1_color;
+    
+    >div{
+        width: 50%;
+        height: 150px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #fs-footer-left{
+
+        &::before,&::after{
+            content: " ";
+            display: inline-block;
+            vertical-align: middle;
+            width: 1%;
+            height: 100%;
+        }
+
+        #fs-footer-left-innercontainer{
+
+            display: inline-block;
+            vertical-align: middle;
+            width: 98%;
+
+            >p{
+                font-size: 0.9rem;
+                font-family: $font1;
+                color: $accent2_color;
+                margin: 0;
+                text-align: left;
+                padding-left: 30px;
+
+        
+                >span {
+                    font-weight: bolder;
+                    font-family: $font5;
+                    color: $accent4_color;
+                }
+        
+            }
+        }
+    }
+        
+    #fs-footer-right{
+
+        &::before,&::after{
+            content: " ";
+            display: inline-block;
+            vertical-align: middle;
+            width: 1%;
+            height: 100%;
+        }
+
+        #fs-footer-right-innercontainer{
+
+            display: inline-block;
+            vertical-align: middle;
+            width: 98%;
+            text-align: right;
+
+            >img{
+                width: 20px;
+                height: auto;
+                margin: 5px;
+                cursor: pointer;
+                &:nth-of-type(3){
+                    padding-right: 20px;
+                }
+ 
+
+            }
+
+            >a{
+                display: block;
+                font-size: $font_xs;
+                font-family: $font1;
+                color: $accent2_color;
+                margin: 0;
+                padding-top: 10px;
+                padding-right: 20px;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+
+}
+
+@media (min-width:  $breakpoint_screen_xs) and (max-width: $breakpoint_screen_m){
+
+    $font_xs : 0.9rem;
+    $font_s: 0.9rem;
+    $font_m : 1rem;
+    $font_l : 1.1rem;
+    $font_xl : 2rem;
+
+    h2 {
+        font-size: $font_l;
+    }
+
+    #fs-aboutme-container >p{
+
+        font-size: $font_s;
+        
+    }
+
+    .fs-edu-box>p {
+
+        font-size: $font_s;
+  
+    }
+
+    .fs-exp-box>p {
+   
+        font-size: $font_s;
+        
+    }
+
+    .exp-l2{
+
+        font-size: $font_xs;
+    }
+
+    .fs-box-container>div>p{
+        
+        font-size: $font_s;
+       
+    }
+
+    #fs-lang-container>p{
+
+        font-size: $font_s;
+
+        .fs-lang-level{
+
+            font-size: 0.8rem;
+
+        }
+        
+    }
+
+    #fs-certs-contaienr{
+        .fs-certs-box{
+
+            >p:nth-of-type(1){
+    
+                font-size: $font_m;
+               
+            }
+            >p:nth-of-type(2), >p:nth-of-type(4){
+    
+                font-size: $font_m;
+            }
+            >p:nth-of-type(3), >p:nth-of-type(5){
+    
+                font-size: $font_m;
+    
+            }
+    
+        }
+
+    }
+    
+
+    #fs-footer-left-innercontainer>p{
+            font-size: 0.9rem;
+    }
+
+    #fs-footer-right-innercontainer>img>p{
+            font-size: $font_xs;
+    } 
+    
+}
+
+@media (min-width:  $breakpoint_tablet_l) and (max-width: $breakpoint_screen_xs){
+
+    $font_s: 0.9rem;
+    $font_m: 1rem;
+    $font_l : 1.1rem;
+
+
+    h2 {
+        font-size: $font_l;
+        line-height: 2rem;
+    }
+
+    #fs-right-container>div:not(:last-child){
+
+         padding: 20px 0 15px 20px;
+
+    }
+
+    #fs-aboutme-container >p{
+
+        font-size: $font_s;
+        
+    }
+
+    .fs-edu-box>p {
+
+        font-size: $font_s;
+  
+    }
+
+    .fs-exp-box>p {
+   
+        font-size: $font_s;
+        
+    }
+
+    .fs-box-container>div>p{
+        
+        font-size: $font_s;
+       
+    }
+
+    #fs-lang-container>p{
+
+        font-size: $font_s;
+
+        .fs-lang-level{
+
+            font-size: 0.8rem;
+
+        }
+        
+    }
+
+    #fs-certs-contaienr{
+        .fs-certs-box{
+
+            >p:nth-of-type(1){
+    
+                font-size: $font_m;
+                display: inline;
+               
+            }
+            >p:nth-of-type(2), >p:nth-of-type(4){
+    
+                font-size: $font_m;
+            }
+            >p:nth-of-type(3), >p:nth-of-type(5){
+    
+                font-size: $font_m;
+    
+            }
+    
+        }
+
+    }
+    
+
+    #fs-footer-container {
+
+        height: 100px;
+
+        >div{height: 100px;}
+
+        #fs-footer-left>#fs-footer-left-innercontainer>p{
+            
+            font-size: 0.7rem;
+            
+        }
+
+        #fs-footer-right>#fs-footer-right-innercontainer>p{
+
+            font-size: 0.75rem;
+            padding-top: 5px;
+             
+        }
+
+
+    }
+    
+}
+
+@media (min-width:  $breakpoint_tablet_s) and (max-width: $breakpoint_tablet_l){
+
+    $font_xs : 0.5rem;
+    $font_s: 0.8rem;
+    $font_m : 0.8rem;
+    $font_l : 1rem;
+    $font_xl : 2rem;
+
+    h2 {
+        font-size: $font_l;
+        line-height: 2rem;
+    }
+
+    #fs-right-container>div:not(:last-child){
+
+         padding: 15px 0 15px 20px;
+
+    }
+
+    #fs-aboutme-container >p{
+
+        font-size: $font_s;
+        
+    }
+
+    .fs-edu-box>p {
+
+        font-size: $font_s;
+  
+    }
+
+    .fs-exp-box>p {
+   
+        font-size: $font_s;
+        
+    }
+
+    .exp-l2{
+
+        font-size: $font_xs;
+    }
+
+    .fs-box-container>div{
+
+        flex-basis: 100%;
+        padding: 5px;
+
+        >p{             
+           font-size: $font_s;
+        }
+
+    }
+
+    #fs-lang-container>p{
+
+        font-size: $font_s;
+
+        .fs-lang-level{
+
+            font-size: 0.8rem;
+
+        }
+        
+    }
+
+    #fs-certs-contaienr{
+        .fs-certs-box{
+
+            >p:nth-of-type(1){
+    
+                font-size: $font_m;
+               
+            }
+            >p:nth-of-type(2), >p:nth-of-type(4){
+    
+                font-size: $font_m;
+            }
+            >p:nth-of-type(3), >p:nth-of-type(5){
+    
+                font-size: $font_m;
+    
+            }
+    
+        }
+
+    }
+    
+
+    #fs-footer-container {
+
+        height: 100px;
+
+        >div{height: 100px;}
+
+        #fs-footer-left>#fs-footer-left-innercontainer>p{
+            
+            font-size: 0.7rem;
+            
+        }
+
+        #fs-footer-right>#fs-footer-right-innercontainer>p{
+
+            font-size: 0.7rem;
+            padding-top: 5px;
+             
+        }
+
+
+    }
+    
+}
+
+
+@media (min-width : $breakpoint_mobile) and (max-width : $breakpoint_tablet_s){
+  
+    $font_xs : 0.5rem;
+    $font_s: 1.1rem;
+    $font_m : 1rem;
+    $font_l : 1.3rem;
+    $font_xl : 2rem;
+
+    h2 {
+        font-size: $font_l;
+        line-height: 2.5rem;
+    }
+
+    #fs-right-container>div:not(:last-child){
+
+         padding: 15px 0 15px 20px;
+
+    }
+
+    #fs-aboutme-container >p{
+
+        font-size: $font_s;
+        
+    }
+
+    .fs-edu-box>p {
+
+        font-size: $font_s;
+  
+    }
+
+    .fs-exp-box>p {
+   
+        font-size: $font_s;
+        
+    }
+
+    .exp-l2{
+
+        font-size: $font_xs;
+    }
+
+    .fs-box-container>div{
+
+        flex-basis: 100%;
+        padding: 5px;
+
+        >p{             
+           font-size: $font_s;
+        }
+
+    }
+
+    #fs-lang-container>p{
+
+        font-size: $font_s;
+
+        .fs-lang-level{
+
+            font-size: 0.9rem;
+
+        }
+        
+    }
+
+    #fs-certs-contaienr{
+        .fs-certs-box{
+
+            >p:nth-of-type(1){
+    
+                font-size: $font_m;
+               
+            }
+            >p:nth-of-type(2), >p:nth-of-type(4){
+    
+                font-size: $font_m;
+            }
+            >p:nth-of-type(3), >p:nth-of-type(5){
+    
+                font-size: $font_m;
+    
+            }
+    
+        }
+
+    }
+    
+
+    #fs-footer-container {
+
+        height: 150px;
+
+        >div{height: 150px;}
+
+        #fs-footer-left>#fs-footer-left-innercontainer>p{
+            
+            font-size: 0.9rem;
+            
+        }
+
+        #fs-footer-right>#fs-footer-right-innercontainer>p{
+
+            font-size: 0.9rem;
+            padding-top: 5px;
+             
+        }
+
+
+    }
+    
+}
+
+@media (min-width : $breakpoint_mobile_s) and (max-width : $breakpoint_mobile){
+
+    $font_xs : 0.5rem;
+    $font_s: 0.9rem;
+    $font_m : 0.9rem;
+    $font_l : 1.1rem;
+    $font_xl : 2rem;
+
+    h2 {
+        font-size: $font_l;
+        line-height: 2.5rem;
+    }
+
+    #fs-right-container>div:not(:last-child){
+
+         padding: 15px 0 15px 20px;
+
+    }
+
+    #fs-aboutme-container >p{
+
+        font-size: $font_s;
+        
+    }
+
+    .fs-edu-box>p {
+
+        font-size: $font_s;
+  
+    }
+
+    .fs-exp-box>p {
+   
+        font-size: $font_s;
+        
+    }
+
+    .exp-l2{
+
+        font-size: $font_xs;
+    }
+
+    .fs-box-container>div{
+
+        flex-basis: 100%;
+        padding: 5px;
+
+        >p{             
+           font-size: $font_s;
+        }
+
+    }
+
+    #fs-lang-container>p{
+
+        font-size: $font_s;
+
+        .fs-lang-level{
+
+            font-size: 0.9rem;
+
+        }
+        
+    }
+
+    #fs-certs-contaienr{
+        .fs-certs-box{
+
+            >p:nth-of-type(1){
+    
+                font-size: $font_m;
+               
+            }
+            >p:nth-of-type(2), >p:nth-of-type(4){
+    
+                font-size: $font_m;
+            }
+            >p:nth-of-type(3), >p:nth-of-type(5){
+    
+                font-size: $font_m;
+    
+            }
+    
+        }
+
+    }
+    
+
+    #fs-footer-container {
+
+        height: 150px;
+
+        >div{height: 150px;}
+
+        #fs-footer-left>#fs-footer-left-innercontainer>p{
+            
+            font-size: 0.9rem;
+            
+        }
+
+        #fs-footer-right>#fs-footer-right-innercontainer>p{
+
+            font-size: 0.9rem;
+            padding-top: 5px;
+             
+        }
+
+
+    }
+
+
+}
+
+
+@media (max-width : $breakpoint_mobile_s) {
+    
+    $font_xs : 0.5rem;
+    $font_s: 0.9rem;
+    $font_m : 1rem;
+    $font_l : 1.1rem;
+    $font_xl : 2rem;
+
+    h2 {
+        font-size: $font_l;
+        line-height: 2.5rem;
+    }
+
+    #fs-right-container>div:not(:last-child){
+
+         padding: 15px 0 15px 20px;
+
+    }
+
+    #fs-aboutme-container >p{
+
+        font-size: $font_s;
+        
+    }
+
+    .fs-edu-box>p {
+
+        font-size: $font_s;
+  
+    }
+
+    .fs-exp-box>p {
+   
+        font-size: $font_s;
+        
+    }
+
+    .exp-l2{
+
+        font-size: $font_xs;
+    }
+
+    .fs-box-container>div{
+
+        flex-basis: 100%;
+        padding: 5px;
+
+        >p{             
+           font-size: $font_s;
+        }
+
+    }
+
+    #fs-lang-container>p{
+
+        font-size: $font_s;
+
+        .fs-lang-level{
+
+            font-size: 0.9rem;
+
+        }
+        
+    }
+
+    #fs-certs-contaienr{
+        .fs-certs-box{
+            
+            >p:nth-of-type(1){
+    
+                font-size: $font_m;
+                display: inline;
+               
+            }
+            >p:nth-of-type(2), >p:nth-of-type(4){
+    
+                font-size: $font_m;
+            }
+            >p:nth-of-type(3), >p:nth-of-type(5){
+    
+                font-size: $font_m;
+    
+            }
+    
+        }
+
+    }
+    
+
+    #fs-footer-container {
+
+        height: 150px;
+
+        >div{height: 150px;}
+
+        #fs-footer-left>#fs-footer-left-innercontainer>p{
+            
+            font-size: 0.9rem;
+            
+        }
+
+        #fs-footer-right>#fs-footer-right-innercontainer>p{
+
+            font-size: 0.9rem;
+            padding-top: 5px;
+             
+        }
+
+
+    }
+
+}
